@@ -171,7 +171,6 @@ svg {
 }
 
 .opportunity-callout {
-  max-width: 760px;
   margin: -8px 0 34px;
   padding: 1rem 1.1rem;
   border: 1px solid rgba(45, 116, 103, 0.22);
@@ -236,11 +235,6 @@ svg {
 .item-list {
   display: grid;
   gap: 1.05rem;
-}
-
-.publication,
-.item {
-  max-width: 760px;
 }
 
 .publication h3,
