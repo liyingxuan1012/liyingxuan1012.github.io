@@ -74,7 +74,7 @@ p {
 h1 {
   margin-bottom: 0.25rem;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.8rem, 9vw, 5rem);
+  font-size: clamp(2.35rem, 6.8vw, 3.95rem);
   line-height: 1;
   font-weight: 500;
   letter-spacing: 0;
@@ -168,6 +168,24 @@ svg {
 
 .section {
   margin-top: 34px;
+}
+
+.opportunity-callout {
+  max-width: 760px;
+  margin: -8px 0 34px;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(45, 116, 103, 0.22);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 12px 34px rgba(30, 36, 39, 0.055);
+}
+
+.opportunity-callout p {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 650;
+  line-height: 1.55;
 }
 
 .section h2,
@@ -342,7 +360,7 @@ svg {
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.65rem;
   }
 
   .role {
@@ -368,6 +386,6 @@ svg {
 
 @media (max-width: 420px) {
   h1 {
-    font-size: 2.55rem;
+    font-size: 2.3rem;
   }
 }
